@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1827BBDF6A86CDEFBDA7F482 /* Pods_ImobileSdkAdsAdapterMoPubSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A0578959AC5CA0BD49F314 /* Pods_ImobileSdkAdsAdapterMoPubSampleTests.framework */; };
+		6164F3BD772E1D5DD8567B0A /* Pods_ImobileSdkAdsAdapterMoPubSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FC828478D267D387D79404 /* Pods_ImobileSdkAdsAdapterMoPubSample.framework */; };
+		769152F9E5F7B0CA4FE1D029 /* Pods_ImobileSdkAdsAdapterMoPubSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59463EF5807AC31AFF23D3EA /* Pods_ImobileSdkAdsAdapterMoPubSampleUITests.framework */; };
 		E94F30931EF2155600D6F1BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94F30921EF2155600D6F1BB /* AppDelegate.swift */; };
 		E94F30951EF2155600D6F1BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94F30941EF2155600D6F1BB /* ViewController.swift */; };
 		E94F30981EF2155600D6F1BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94F30961EF2155600D6F1BB /* Main.storyboard */; };
@@ -14,6 +17,15 @@
 		E94F309D1EF2155600D6F1BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94F309B1EF2155600D6F1BB /* LaunchScreen.storyboard */; };
 		E94F30A81EF2155600D6F1BB /* ImobileSdkAdsAdapterMoPubSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94F30A71EF2155600D6F1BB /* ImobileSdkAdsAdapterMoPubSampleTests.swift */; };
 		E94F30B31EF2155600D6F1BB /* ImobileSdkAdsAdapterMoPubSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94F30B21EF2155600D6F1BB /* ImobileSdkAdsAdapterMoPubSampleUITests.swift */; };
+		E94F30C51EF21A8F00D6F1BB /* ImobileSdkAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94F30C41EF21A8F00D6F1BB /* ImobileSdkAds.framework */; };
+		E962FD841EF21B340076DE41 /* ImobileSdkAdsMoPubNativeAdAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E962FD831EF21B340076DE41 /* ImobileSdkAdsMoPubNativeAdAdapter.swift */; };
+		E9FBFA281EF21FB900A610DC /* ImobileSdkAdsMoPubNativeCustomEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FBFA271EF21FB900A610DC /* ImobileSdkAdsMoPubNativeCustomEvent.swift */; };
+		E9FBFA2A1EF22AE000A610DC /* ImobileSdkAdsMoPubNativeAdRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FBFA291EF22AE000A610DC /* ImobileSdkAdsMoPubNativeAdRenderer.swift */; };
+		E9FBFA2C1EF2305700A610DC /* ImobileSdkAdsMoPubNativeRendererSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FBFA2B1EF2305700A610DC /* ImobileSdkAdsMoPubNativeRendererSettings.swift */; };
+		E9FBFA2E1EF25A6F00A610DC /* ProgramListItemAdPlacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FBFA2D1EF25A6F00A610DC /* ProgramListItemAdPlacerView.swift */; };
+		E9FBFA301EF25A8B00A610DC /* GgmColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FBFA2F1EF25A8B00A610DC /* GgmColor.swift */; };
+		E9FBFA321EF25B8300A610DC /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FBFA311EF25B8300A610DC /* Cell.swift */; };
+		E9FBFA3C1EF2AC8600A610DC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FBFA3B1EF2AC8600A610DC /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28FC828478D267D387D79404 /* Pods_ImobileSdkAdsAdapterMoPubSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImobileSdkAdsAdapterMoPubSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59463EF5807AC31AFF23D3EA /* Pods_ImobileSdkAdsAdapterMoPubSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImobileSdkAdsAdapterMoPubSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A0578959AC5CA0BD49F314 /* Pods_ImobileSdkAdsAdapterMoPubSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImobileSdkAdsAdapterMoPubSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ACB8F7760D1361AB060B3A1 /* Pods-ImobileSdkAdsAdapterMoPubSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImobileSdkAdsAdapterMoPubSampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImobileSdkAdsAdapterMoPubSampleUITests/Pods-ImobileSdkAdsAdapterMoPubSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A1493E70C4567241866F2AE4 /* Pods-ImobileSdkAdsAdapterMoPubSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImobileSdkAdsAdapterMoPubSampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImobileSdkAdsAdapterMoPubSampleUITests/Pods-ImobileSdkAdsAdapterMoPubSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ADA15677DFC2EBCE8E505C4E /* Pods-ImobileSdkAdsAdapterMoPubSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImobileSdkAdsAdapterMoPubSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImobileSdkAdsAdapterMoPubSampleTests/Pods-ImobileSdkAdsAdapterMoPubSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA00A4709D49459AB06E8F7D /* Pods-ImobileSdkAdsAdapterMoPubSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImobileSdkAdsAdapterMoPubSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImobileSdkAdsAdapterMoPubSample/Pods-ImobileSdkAdsAdapterMoPubSample.release.xcconfig"; sourceTree = "<group>"; };
+		E747C2DC1ECCB72A6305C6C9 /* Pods-ImobileSdkAdsAdapterMoPubSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImobileSdkAdsAdapterMoPubSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImobileSdkAdsAdapterMoPubSample/Pods-ImobileSdkAdsAdapterMoPubSample.debug.xcconfig"; sourceTree = "<group>"; };
 		E94F308F1EF2155600D6F1BB /* ImobileSdkAdsAdapterMoPubSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImobileSdkAdsAdapterMoPubSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E94F30921EF2155600D6F1BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E94F30941EF2155600D6F1BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +67,17 @@
 		E94F30AE1EF2155600D6F1BB /* ImobileSdkAdsAdapterMoPubSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImobileSdkAdsAdapterMoPubSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E94F30B21EF2155600D6F1BB /* ImobileSdkAdsAdapterMoPubSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImobileSdkAdsAdapterMoPubSampleUITests.swift; sourceTree = "<group>"; };
 		E94F30B41EF2155600D6F1BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E94F30C31EF2162000D6F1BB /* ImobileSdkAds-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImobileSdkAds-Bridging-Header.h"; sourceTree = "<group>"; };
+		E94F30C41EF21A8F00D6F1BB /* ImobileSdkAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ImobileSdkAds.framework; sourceTree = "<group>"; };
+		E962FD831EF21B340076DE41 /* ImobileSdkAdsMoPubNativeAdAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImobileSdkAdsMoPubNativeAdAdapter.swift; sourceTree = "<group>"; };
+		E9FBFA271EF21FB900A610DC /* ImobileSdkAdsMoPubNativeCustomEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImobileSdkAdsMoPubNativeCustomEvent.swift; sourceTree = "<group>"; };
+		E9FBFA291EF22AE000A610DC /* ImobileSdkAdsMoPubNativeAdRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImobileSdkAdsMoPubNativeAdRenderer.swift; sourceTree = "<group>"; };
+		E9FBFA2B1EF2305700A610DC /* ImobileSdkAdsMoPubNativeRendererSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImobileSdkAdsMoPubNativeRendererSettings.swift; sourceTree = "<group>"; };
+		E9FBFA2D1EF25A6F00A610DC /* ProgramListItemAdPlacerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramListItemAdPlacerView.swift; sourceTree = "<group>"; };
+		E9FBFA2F1EF25A8B00A610DC /* GgmColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GgmColor.swift; sourceTree = "<group>"; };
+		E9FBFA311EF25B8300A610DC /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		E9FBFA3B1EF2AC8600A610DC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FDB9136BDC858B3EC3B6EE81 /* Pods-ImobileSdkAdsAdapterMoPubSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImobileSdkAdsAdapterMoPubSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImobileSdkAdsAdapterMoPubSampleTests/Pods-ImobileSdkAdsAdapterMoPubSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +85,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E94F30C51EF21A8F00D6F1BB /* ImobileSdkAds.framework in Frameworks */,
+				6164F3BD772E1D5DD8567B0A /* Pods_ImobileSdkAdsAdapterMoPubSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1827BBDF6A86CDEFBDA7F482 /* Pods_ImobileSdkAdsAdapterMoPubSampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +102,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				769152F9E5F7B0CA4FE1D029 /* Pods_ImobileSdkAdsAdapterMoPubSampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BB228BBFAB8DA2D30E8013A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28FC828478D267D387D79404 /* Pods_ImobileSdkAdsAdapterMoPubSample.framework */,
+				65A0578959AC5CA0BD49F314 /* Pods_ImobileSdkAdsAdapterMoPubSampleTests.framework */,
+				59463EF5807AC31AFF23D3EA /* Pods_ImobileSdkAdsAdapterMoPubSampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEDE57495F42A06031C3B441 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E747C2DC1ECCB72A6305C6C9 /* Pods-ImobileSdkAdsAdapterMoPubSample.debug.xcconfig */,
+				BA00A4709D49459AB06E8F7D /* Pods-ImobileSdkAdsAdapterMoPubSample.release.xcconfig */,
+				ADA15677DFC2EBCE8E505C4E /* Pods-ImobileSdkAdsAdapterMoPubSampleTests.debug.xcconfig */,
+				FDB9136BDC858B3EC3B6EE81 /* Pods-ImobileSdkAdsAdapterMoPubSampleTests.release.xcconfig */,
+				9ACB8F7760D1361AB060B3A1 /* Pods-ImobileSdkAdsAdapterMoPubSampleUITests.debug.xcconfig */,
+				A1493E70C4567241866F2AE4 /* Pods-ImobileSdkAdsAdapterMoPubSampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E94F30861EF2155600D6F1BB = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +139,8 @@
 				E94F30A61EF2155600D6F1BB /* ImobileSdkAdsAdapterMoPubSampleTests */,
 				E94F30B11EF2155600D6F1BB /* ImobileSdkAdsAdapterMoPubSampleUITests */,
 				E94F30901EF2155600D6F1BB /* Products */,
+				CEDE57495F42A06031C3B441 /* Pods */,
+				2BB228BBFAB8DA2D30E8013A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +157,15 @@
 		E94F30911EF2155600D6F1BB /* ImobileSdkAdsAdapterMoPubSample */ = {
 			isa = PBXGroup;
 			children = (
+				E94F30C31EF2162000D6F1BB /* ImobileSdkAds-Bridging-Header.h */,
+				E94F30C41EF21A8F00D6F1BB /* ImobileSdkAds.framework */,
+				E94F30C61EF21AC500D6F1BB /* Adapters */,
 				E94F30921EF2155600D6F1BB /* AppDelegate.swift */,
 				E94F30941EF2155600D6F1BB /* ViewController.swift */,
+				E9FBFA3B1EF2AC8600A610DC /* Constants.swift */,
+				E9FBFA2D1EF25A6F00A610DC /* ProgramListItemAdPlacerView.swift */,
+				E9FBFA311EF25B8300A610DC /* Cell.swift */,
+				E9FBFA2F1EF25A8B00A610DC /* GgmColor.swift */,
 				E94F30961EF2155600D6F1BB /* Main.storyboard */,
 				E94F30991EF2155600D6F1BB /* Assets.xcassets */,
 				E94F309B1EF2155600D6F1BB /* LaunchScreen.storyboard */,
@@ -125,6 +192,17 @@
 			path = ImobileSdkAdsAdapterMoPubSampleUITests;
 			sourceTree = "<group>";
 		};
+		E94F30C61EF21AC500D6F1BB /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				E962FD831EF21B340076DE41 /* ImobileSdkAdsMoPubNativeAdAdapter.swift */,
+				E9FBFA271EF21FB900A610DC /* ImobileSdkAdsMoPubNativeCustomEvent.swift */,
+				E9FBFA291EF22AE000A610DC /* ImobileSdkAdsMoPubNativeAdRenderer.swift */,
+				E9FBFA2B1EF2305700A610DC /* ImobileSdkAdsMoPubNativeRendererSettings.swift */,
+			);
+			name = Adapters;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E94F30B71EF2155700D6F1BB /* Build configuration list for PBXNativeTarget "ImobileSdkAdsAdapterMoPubSample" */;
 			buildPhases = (
+				4C43D93A2A1E66DA86066039 /* [CP] Check Pods Manifest.lock */,
 				E94F308B1EF2155600D6F1BB /* Sources */,
 				E94F308C1EF2155600D6F1BB /* Frameworks */,
 				E94F308D1EF2155600D6F1BB /* Resources */,
+				D2EF703027AA3BAF81A0BA62 /* [CP] Embed Pods Frameworks */,
+				CADED6BF555ECE7C1F221183 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E94F30BA1EF2155700D6F1BB /* Build configuration list for PBXNativeTarget "ImobileSdkAdsAdapterMoPubSampleTests" */;
 			buildPhases = (
+				37C6E04C745B59B294DCCA09 /* [CP] Check Pods Manifest.lock */,
 				E94F309F1EF2155600D6F1BB /* Sources */,
 				E94F30A01EF2155600D6F1BB /* Frameworks */,
 				E94F30A11EF2155600D6F1BB /* Resources */,
+				4FCDC800666FC873FBBAD9F6 /* [CP] Embed Pods Frameworks */,
+				597D4701A5B4ACE8CA831A50 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +251,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E94F30BD1EF2155700D6F1BB /* Build configuration list for PBXNativeTarget "ImobileSdkAdsAdapterMoPubSampleUITests" */;
 			buildPhases = (
+				A604122175B39A0EEE4D7E96 /* [CP] Check Pods Manifest.lock */,
 				E94F30AA1EF2155600D6F1BB /* Sources */,
 				E94F30AB1EF2155600D6F1BB /* Frameworks */,
 				E94F30AC1EF2155600D6F1BB /* Resources */,
+				B3A2CAE6455CB8F25C51CB55 /* [CP] Embed Pods Frameworks */,
+				A1D9027C65818B41B0868B5A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,12 +344,158 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37C6E04C745B59B294DCCA09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4C43D93A2A1E66DA86066039 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4FCDC800666FC873FBBAD9F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImobileSdkAdsAdapterMoPubSampleTests/Pods-ImobileSdkAdsAdapterMoPubSampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		597D4701A5B4ACE8CA831A50 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImobileSdkAdsAdapterMoPubSampleTests/Pods-ImobileSdkAdsAdapterMoPubSampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1D9027C65818B41B0868B5A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImobileSdkAdsAdapterMoPubSampleUITests/Pods-ImobileSdkAdsAdapterMoPubSampleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A604122175B39A0EEE4D7E96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B3A2CAE6455CB8F25C51CB55 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImobileSdkAdsAdapterMoPubSampleUITests/Pods-ImobileSdkAdsAdapterMoPubSampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CADED6BF555ECE7C1F221183 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImobileSdkAdsAdapterMoPubSample/Pods-ImobileSdkAdsAdapterMoPubSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2EF703027AA3BAF81A0BA62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImobileSdkAdsAdapterMoPubSample/Pods-ImobileSdkAdsAdapterMoPubSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E94F308B1EF2155600D6F1BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9FBFA2A1EF22AE000A610DC /* ImobileSdkAdsMoPubNativeAdRenderer.swift in Sources */,
 				E94F30951EF2155600D6F1BB /* ViewController.swift in Sources */,
+				E9FBFA2C1EF2305700A610DC /* ImobileSdkAdsMoPubNativeRendererSettings.swift in Sources */,
+				E9FBFA301EF25A8B00A610DC /* GgmColor.swift in Sources */,
+				E9FBFA2E1EF25A6F00A610DC /* ProgramListItemAdPlacerView.swift in Sources */,
+				E9FBFA3C1EF2AC8600A610DC /* Constants.swift in Sources */,
+				E9FBFA321EF25B8300A610DC /* Cell.swift in Sources */,
+				E962FD841EF21B340076DE41 /* ImobileSdkAdsMoPubNativeAdAdapter.swift in Sources */,
+				E9FBFA281EF21FB900A610DC /* ImobileSdkAdsMoPubNativeCustomEvent.swift in Sources */,
 				E94F30931EF2155600D6F1BB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,32 +648,45 @@
 		};
 		E94F30B81EF2155700D6F1BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E747C2DC1ECCB72A6305C6C9 /* Pods-ImobileSdkAdsAdapterMoPubSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L9CVD8GGL4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ImobileSdkAdsAdapterMoPubSample",
+				);
 				INFOPLIST_FILE = ImobileSdkAdsAdapterMoPubSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.ipg.ImobileSdkAdsAdapterMoPubSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/ImobileSdkAds-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		E94F30B91EF2155700D6F1BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA00A4709D49459AB06E8F7D /* Pods-ImobileSdkAdsAdapterMoPubSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L9CVD8GGL4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ImobileSdkAdsAdapterMoPubSample",
+				);
 				INFOPLIST_FILE = ImobileSdkAdsAdapterMoPubSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.ipg.ImobileSdkAdsAdapterMoPubSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/ImobileSdkAds-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		E94F30BB1EF2155700D6F1BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADA15677DFC2EBCE8E505C4E /* Pods-ImobileSdkAdsAdapterMoPubSampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +702,7 @@
 		};
 		E94F30BC1EF2155700D6F1BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDB9136BDC858B3EC3B6EE81 /* Pods-ImobileSdkAdsAdapterMoPubSampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +718,7 @@
 		};
 		E94F30BE1EF2155700D6F1BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ACB8F7760D1361AB060B3A1 /* Pods-ImobileSdkAdsAdapterMoPubSampleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = L9CVD8GGL4;
@@ -485,6 +733,7 @@
 		};
 		E94F30BF1EF2155700D6F1BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1493E70C4567241866F2AE4 /* Pods-ImobileSdkAdsAdapterMoPubSampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = L9CVD8GGL4;
@@ -516,6 +765,7 @@
 				E94F30B91EF2155700D6F1BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E94F30BA1EF2155700D6F1BB /* Build configuration list for PBXNativeTarget "ImobileSdkAdsAdapterMoPubSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +774,7 @@
 				E94F30BC1EF2155700D6F1BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E94F30BD1EF2155700D6F1BB /* Build configuration list for PBXNativeTarget "ImobileSdkAdsAdapterMoPubSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +783,7 @@
 				E94F30BF1EF2155700D6F1BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,6 @@
+framework module Pods_ImobileSdkAdsAdapterMoPubSampleUITests {
+  umbrella header "Pods-ImobileSdkAdsAdapterMoPubSampleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
